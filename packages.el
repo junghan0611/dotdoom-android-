@@ -91,11 +91,11 @@
 
 ;;;; ui
 
-;; (unpin! doom-themes)
-;; (package! doom-themes :recipe (:host github :repo "junghan0611/doom-themes" :branch "ko"))
+(unpin! doom-themes)
+(package! doom-themes :recipe (:host github :repo "junghan0611/doom-themes" :branch "ko"))
 ;; (package! spacious-padding)
 ;; (package! keycast)
-;; (package! outli :recipe (:host github :repo "jdtsmith/outli" :files ("*.el")))
+(package! outli :recipe (:host github :repo "jdtsmith/outli" :files ("*.el")))
 
 ;;;; for ccmenu
 
@@ -114,16 +114,18 @@
 (package! denote-markdown)
 (package! denote-journal)
 
-;; (package! denote-explore)
-;; (package! denote-search)
-;; (package! consult-notes)
-;; (package! citar-denote)
+(package! denote-explore)
+(package! denote-search)
+(package! consult-notes)
+(package! citar-denote)
+
+(package! ten :recipe (:host sourcehut :repo "nobiot/ten")) ;; https://git.sr.ht/~nobiot/ten
 
 ;;;; template
 
-;; (package! tempel)
-;; (package! tempel-collection)
-;; (package! imenu-list :recipe (:host github :repo "junghan0611/imenu-list" :branch "master"))
+(package! tempel)
+(package! tempel-collection)
+(package! imenu-list :recipe (:host github :repo "junghan0611/imenu-list" :branch "master"))
 ;; (package! laas)
 
 ;;;; llmclient
@@ -136,30 +138,23 @@
 ;; (package! org-download)
 ;; (package! org-rainbow-tags)
 ;; (package! org-glossary :recipe (:host github :repo "tecosaur/org-glossary" :files ("*.el" "*.org" "*.texi")))
-;; (package! ten :recipe (:host sourcehut :repo "nobiot/ten")) ;; https://git.sr.ht/~nobiot/ten
 ;; (package! org-fragtog)          ;; interactive toggling of inline latex formulas
 ;; (package! org-transclusion)
 
 ;;;; code
 
-;; (package! aggressive-indent)
+(package! aggressive-indent)
 ;; (package! geiser-mit :recipe (:host github :repo "emacsmirror/geiser-mit"))
 
 ;;;; tools
 
-;; (package! dired-preview)
-;; (package! jinx) ; spell checker
+(package! dired-preview)
 ;; (package! term-keys :recipe (:host github :repo "junghan0611/term-keys"))
 ;; (package! nov)
-
-;;;; workspaces
-
-;; (package! tabgo)
 
 ;; ;;;; transient
 
 ;; (package! ccmenu :recipe (:host github :repo "junghan0611/ccmenu"))
 ;; (package! casual-suite)
-;; (package! nov)
 
 ;;; org-mode for latex-preview-auto-mode
